@@ -22,9 +22,6 @@ import NotFound from "./pages/404";
 import "./Css/login.css";
 import "./Css/nav.css";
 import "./Css/home.css";
-
-
-
 function App() {
 
   const [state, setState] = useState({
@@ -40,7 +37,7 @@ function App() {
         // User is signed in.
         setState({isAuth: true, isLoading: false})
       } else {
-        // No user is signed in.
+    
         setState({isAuth: false, isLoading: false})
       }
     });
