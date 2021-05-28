@@ -6,7 +6,6 @@ import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-d
 //routers
 import PrivateRouter from "./routers/PrivateRouter";
 import PublicRouter from "./routers/PublicRouter";
-
 //firebase
 import firebase from "./utils/firebase";
 
